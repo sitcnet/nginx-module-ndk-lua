@@ -134,7 +134,7 @@ cd %{bdir}
 
 %{__install} -m644 %{bdir}/lua-nginx-module-%{lua_version}/README.markdown $RPM_BUILD_ROOT%{_datadir}/doc/nginx-module-lua/
 %{__install} -m644 %{bdir}/ngx_devel_kit-%{ndk_version}/README.md $RPM_BUILD_ROOT%{_datadir}/doc/nginx-module-ndk/
-%{__install} -m644 %{bdir}/ngx_devel_kit-%{ndk_version}/README_AUTO_LIB $RPM_BUILD_ROOT%{_datadir}/doc/nginx-module-ndk/
+%{__install} -m644 %{bdir}/ngx_devel_kit-%{ndk_version}/README_AUTO_LIB.md $RPM_BUILD_ROOT%{_datadir}/doc/nginx-module-ndk/
 %{__install} -m644 %{bdir}/ngx_devel_kit-%{ndk_version}/LICENSE $RPM_BUILD_ROOT%{_datadir}/doc/nginx-module-ndk/
 
 
