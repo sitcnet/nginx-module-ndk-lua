@@ -108,7 +108,7 @@ cd %{bdir}
 
 %if 0%{?fedora} >= 26
 export LUAJIT_LIB="/usr/lib64"
-export LUAJIT_INC="/usr/include/luajit-2.1"
+export LUAJIT_INC="/usr/include/luajit-2.0"
 export CFLAGS="-Wno-error"
 %endif
 
